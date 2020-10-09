@@ -35,8 +35,9 @@ class AppServiceProvider extends ServiceProvider
                 $guzzle = new Client();
                 $cache = $app->make(Cache::class);
                 $token = env('GITHUB_ACCESS_TOKEN');
+                $cacheLifetime = env('CACHE_LIFETIME', 1 * 24 * 60);
 
-                return new GithubClient($guzzle, $cache, $token);
+                return new GithubClient($guzzle, $cache, $token, $cacheLifetime);
             }
         );
 
