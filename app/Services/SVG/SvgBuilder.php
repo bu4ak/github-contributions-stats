@@ -12,7 +12,6 @@ use SVG\SVG;
 
 class SvgBuilder implements SvgBuilderInterface
 {
-
     protected SvgBackgroundDTO $background;
     protected SvgTitleDTO $title;
     /**

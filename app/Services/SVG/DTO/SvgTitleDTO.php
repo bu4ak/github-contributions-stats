@@ -43,5 +43,4 @@ class SvgTitleDTO
     {
         return $this->yCoordinate;
     }
-
 }
