@@ -43,5 +43,4 @@ class SvgBackgroundDTO
     {
         return $this->height;
     }
-
 }
