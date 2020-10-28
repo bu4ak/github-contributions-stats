@@ -48,7 +48,7 @@ return [
 
         'file' => [
             'driver' => 'file',
-            'path' => env('CACHE_PATH',  storage_path('framework/cache/data')),
+            'path' => env('CACHE_PATH', storage_path('framework/cache/data')),
         ],
 
         'memcached' => [
@@ -90,7 +90,7 @@ return [
 
     'prefix' => env(
         'CACHE_PREFIX',
-        Str::slug(env('APP_NAME', 'lumen'), '_').'_cache'
+        Str::slug(env('APP_NAME', 'lumen'), '_') . '_cache'
     ),
 
 ];
