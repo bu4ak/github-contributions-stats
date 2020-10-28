@@ -11,13 +11,13 @@ Copy-paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```markdown
-![Contributions stats](https://github-contributions-stats.herokuapp.com/?username=bu4ak)
+![Contributions stats](https://eukbz9j8yl.execute-api.eu-central-1.amazonaws.com/production?username=bu4ak)
 ```
 or
 ```html
 <a href="https://github.com/bu4ak/github-contributions-stats">
-  <img align="center" src="https://github-contributions-stats.herokuapp.com/?username=bu4ak" />
+  <img align="center" src="https://eukbz9j8yl.execute-api.eu-central-1.amazonaws.com/production?username=bu4ak" />
 </a>
 ```
 #### Demo:
-![Contributions stats](https://github-contributions-stats.herokuapp.com/?username=bu4ak)
+![Contributions stats](https://eukbz9j8yl.execute-api.eu-central-1.amazonaws.com/production?username=bu4ak)
